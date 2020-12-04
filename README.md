@@ -1,4 +1,4 @@
-Contact List ReadMe
+Contact List ReadMe:
 
 This project is a functioning contact list app that is written with python and mysql, using peewee to create the models. The user can create, add, update and delete contacts usingt his app. This is meant to showcase CRUD functionality using these technologies. 
 
