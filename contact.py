@@ -60,7 +60,7 @@ update_name = input("Which name do you want to update? ")
 
 object_b = Contacts.get(Contacts.first_name == update_name)
 new_name = input("Enter new first name for this contact: ")
-print("The nme has been updated!")
+print("The name has been updated!")
 
 object_b.first_name = new_name
 object_b.save()
