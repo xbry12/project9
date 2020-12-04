@@ -38,7 +38,6 @@ for c in all_contacts:
 search_name = input("Enter a name to search: ")
 
 
-
 # Read
 search_result = Contacts.get(Contacts.first_name == search_name)
 print(search_result.email)
